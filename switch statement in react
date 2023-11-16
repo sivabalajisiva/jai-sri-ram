@@ -1,0 +1,33 @@
+import React from 'react'
+
+function App() {
+   let value="option1";
+
+   switch (value) {
+    case 'option1':
+      value = <p>Option 1 selected</p>;
+      break;
+    case 'option2':
+      value = <p>Option 2 selected</p>;
+      break;
+    case 'option3':
+      value = <p>Option 3 selected</p>;
+      break;
+    default:
+      value = <p>No option selected</p>;
+      break;
+  }
+  return (
+    <div>
+     {value}
+    </div>
+  )
+}
+
+export default App
+
+
+
+
+
+
